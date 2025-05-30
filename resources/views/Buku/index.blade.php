@@ -32,7 +32,7 @@
                                     <td>{{$data->tahunTerbit}}</td>
                                     <td>{{$data->penerbit}}</td>
                                     <td>
-                                        <a href="/dosen/edit/{{$data->id}}" class="btn btn-info btn-sm"><i class="fa-solid fa-pen-to-square"></i></a>
+                                        <a href="/buku/edit/{{$data->id}}" class="btn btn-info btn-sm"><i class="fa-solid fa-pen-to-square"></i></a>
 
 
                                         <!-- Button trigger modal -->
