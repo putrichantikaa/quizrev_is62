@@ -31,4 +31,5 @@ Route::middleware(['auth'])->group(function () {
     Route::post('/buku', [bukuController::class, 'store']);
     Route::get('/buku/edit/{id}', [bukuController::class, 'edit']);
     Route::put('/buku/{id}', [bukuController::class, 'update']);
+    Route::delete('/buku/{id}', [bukuController::class, 'destroy']);
 });
