@@ -1,0 +1,13 @@
+1. PC
+2. XAMPP (database)
+3. Text Editor (VS Code)
+4. NPM ( Node.Js) / javascript
+5. Composer (Depedency Manager) / library PHP
+
+1.
+php artisan make:model Buku
+php artisan make:migration create_bukus_table
+php artisan make:controller bukuController --resource
+
+2. jalankan migration
+php artisan migrate
